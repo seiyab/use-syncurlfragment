@@ -1,0 +1,29 @@
+{
+  "name": "intergration-test",
+  "version": "0.0.0",
+  "description": "intergration test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "seiyab",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "@babel/preset-typescript": "^7.16.0",
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/react": "^17.0.35",
+    "@types/react-dom": "^17.0.11",
+    "babel-loader": "^8.2.3",
+    "html-webpack-plugin": "^5.5.0",
+    "react": "^17.0.2",
+    "tsconfig-paths-webpack-plugin": "^3.5.2",
+    "typescript": "^4.5.2",
+    "use-syncurlfragment": "file:..",
+    "webpack": "^5.64.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
+  }
+}

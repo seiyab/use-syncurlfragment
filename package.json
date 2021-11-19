@@ -1,0 +1,46 @@
+{
+  "name": "use-syncurlfragment",
+  "version": "0.0.0",
+  "description": "apply scroll position to url fragment",
+  "main": "lib/index.js",
+  "types": "lib/index.d.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seiyab/use-syncurlfragment.git"
+  },
+  "keywords": [
+    "react",
+    "react-router",
+    "react-router-dom",
+    "scroll",
+    "hash",
+    "url"
+  ],
+  "author": "seiyab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seiyab/use-syncurlfragment/issues"
+  },
+  "homepage": "https://github.com/seiyab/use-syncurlfragment#readme",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/react": "^17.0.35",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
+    "history": "^5.1.0",
+    "prettier": "^2.4.1",
+    "react-router-dom": "^6.0.2",
+    "typescript": "^4.5.2"
+  },
+  "peerDependencies": {
+    "history": ">=5.1",
+    "react": ">=16.8",
+    "react-dom": ">=16.8",
+    "react-router-dom": ">=6.0"
+  }
+}

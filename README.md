@@ -6,6 +6,8 @@ React hook synchronizes current viewing element's id to URL
 
 :construction: I don't recommend this library. I found its API design is harmful. Inetracting elements that component doesn't render directly will be broken.
 
+Better alternative: [`useOnScreen`](https://usehooks.com/useOnScreen/) will work well and it has less dependencies.
+
 # installation
 
 ```

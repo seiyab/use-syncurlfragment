@@ -15,8 +15,8 @@ const Content = () => {
     <>
       {Array.from(Array(10).keys()).map((_, i) => (
         <React.Fragment key={i}>
-          <h1 id={`id-${i}`}>title</h1>
-          <section style={{ height: "300px" }}>hogehoge</section>
+          <h1 id={`id-${i}`}>title - {i}</h1>
+          <section style={{ height: "100px" }}>some sentences</section>
         </React.Fragment>
       ))}
     </>

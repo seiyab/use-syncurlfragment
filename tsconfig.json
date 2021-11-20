@@ -1,5 +1,6 @@
 {
   "extends": "@tsconfig/recommended/tsconfig.json",
+  "target": "es5",
   "compilerOptions": {
     "declaration": true,
     "outDir": "./lib",

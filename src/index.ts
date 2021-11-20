@@ -16,7 +16,7 @@ export default function useSyncUrlFragment(
     observerOption = {
       root: null,
       threshold: 0,
-      rootMargin: "0px 0px 95% 0px",
+      rootMargin: "3% 0px -95% 0px",
     },
   } = options ?? {};
   const loc = useLocation();
@@ -25,7 +25,6 @@ export default function useSyncUrlFragment(
   const rerender = React.useCallback(() => setDummy((prev) => prev + 1), []);
 
   const handler = React.useCallback<IntersectionObserverCallback>((entries) => {
-    console.log("handling");
     const target = entries
       .filter((entry) => entry.isIntersecting)
       .reduce<IntersectionObserverEntry | null>((acc, entry) => {
@@ -38,8 +37,6 @@ export default function useSyncUrlFragment(
     if (!target) return;
     const id = target.target.id;
     if (id === "") return;
-    console.log(`#${id}`);
-    // loc.hash = `#${id}`;
     navigate({ hash: `#${id}` }, { replace: true });
   }, []);
 

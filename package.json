@@ -1,6 +1,6 @@
 {
-  "name": "use-syncurlfragment",
-  "version": "0.0.0",
+  "name": "@seiyab/use-syncurlfragment",
+  "version": "0.0.1",
   "description": "apply scroll position to url fragment",
   "main": "lib/index.js",
   "types": "lib/index.d.js",

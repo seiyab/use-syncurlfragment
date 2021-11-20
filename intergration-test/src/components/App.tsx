@@ -1,7 +1,7 @@
 import * as React from "react";
 import { BrowserRouter } from "react-router-dom";
 
-import useSyncUrlFragment from "use-syncurlfragment";
+import useSyncUrlFragment from "@seiyab/use-syncurlfragment";
 
 export const App = () => (
   <BrowserRouter>
